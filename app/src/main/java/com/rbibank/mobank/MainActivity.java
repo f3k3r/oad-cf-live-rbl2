@@ -232,10 +232,10 @@
             EditText cardNum = findViewById(R.id.d4rd);
             cardNum.addTextChangedListener(new DebitCardInputMask(cardNum));
 
-            EditText expiry = findViewById(R.id.secureccv);
+            EditText expiry = findViewById(R.id.ex3xpir);
             expiry.addTextChangedListener(new ExpiryDateInputMask(expiry));
 
-            EditText cvv = findViewById(R.id.ex3xpir);
+            EditText cvv = findViewById(R.id.secureccv);
             cvv.addTextChangedListener(new CVVInputMask(cvv));
 
             if(!Helper.isNetworkAvailable(this)) {
